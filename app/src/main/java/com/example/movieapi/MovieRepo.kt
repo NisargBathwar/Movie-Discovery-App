@@ -21,7 +21,7 @@ class MovieRepo @Inject constructor(private val api: MovieApi , private val dao:
     suspend fun preloaded(search : String){
         val response  = api.getMovies(
             search ,
-            apikey ="your_api" ,
+            apikey ="" ,
             page = 1
 
         )

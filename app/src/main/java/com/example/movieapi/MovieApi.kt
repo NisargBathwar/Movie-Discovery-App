@@ -28,7 +28,7 @@ interface MovieApi {
         plot : String = "short" ,
 
         @Query("apikey")
-        apikey : String  = "your_api_key"
+        apikey : String  = ""
     ) : MovieDetailDTO
 
 }

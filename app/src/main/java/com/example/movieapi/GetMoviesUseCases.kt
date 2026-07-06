@@ -11,7 +11,7 @@ class GetMoviesUseCases @Inject constructor(private val repo : MovieRepo) {
         return repo.getMovies(
             search ,
             page = page ,
-            apikey = apikey
+            apikey = ""
         )
     }
 

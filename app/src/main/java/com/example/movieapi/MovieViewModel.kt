@@ -169,7 +169,7 @@ class MovieViewModel @Inject constructor(private val getMoviesUseCases: GetMovie
 
                 val response = getMoviesUseCases(
                     search = _uiState.value.search ,
-                    apikey = "a2a6c564" ,
+                    apikey = "" ,
                     page = currentPage
                 )
 
